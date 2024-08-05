@@ -1,0 +1,38 @@
+//abc
+//bcd
+//cde
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+int n,i,j;
+cin>>n;
+int count=97;
+int c=97;
+for(i=0;i<n;i++)
+
+{
+    char br=c+i;
+    for(j=0;j<n;j++)
+    {
+        char ch= br+j;
+        count=count+1;
+        
+        
+        cout<<ch;
+        
+    }
+    cout<<" "<<endl;
+}
+    return 0;
+}
+
+
+
+
+
+*************2nd method**************
+
+
