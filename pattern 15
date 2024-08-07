@@ -1,0 +1,27 @@
+//d
+//cd
+//bcd
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i,j,n;
+    cin>>n;
+    int c=97+n;
+    for(i=1;i<=n;i++)
+    
+    {
+        
+        
+        for(j=0;j<i;j++)
+        {
+            char ch=c+j;
+            cout<<ch;
+            
+        }
+    c--;
+    cout<<" "<<endl;
+    }
+
+    return 0;
+}
